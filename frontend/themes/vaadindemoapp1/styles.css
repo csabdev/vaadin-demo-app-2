@@ -1,0 +1,13 @@
+@import url('./main-layout.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+@import url('@fontsource/abel');    html {
+      --lumo-border-radius: 0px;
+--lumo-font-family: Abel;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-base-color: hsl(214, 85%, 56%);
+      --lumo-body-text-color: hsla(214, 0%, 99%, 0.9);
+
+    }
